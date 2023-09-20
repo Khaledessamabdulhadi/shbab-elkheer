@@ -44,7 +44,7 @@
                 <button href="#">
                     <i class="fa-solid fa-user"></i>
                     <span>حساب شخصي</span>
-                    <div class="dropdown">
+                    <div class="item-btn">
                         <a href="signup.html">تسجيل حساب جديد</a>
                         <a href="signin.html">تسجيل الدخول</a>
                     </div>
@@ -63,12 +63,12 @@
                     <a href="index.html">الرئيسية</a>
                 </div>
                 <div class="box">
-                    <i class="fa-solid fa-question"></i>
-                    <a href="who.html">من نحن</a>
-                    <i class="fa-solid fa-angle-down"></i>
                     <div class="dropdown">
-                        <a href="who.html">من نحن</a>
-                        <a href="#">اعضاء مجلس الامناء</a>
+                        <button onclick="myFunction()" class="dropbtn"><i class="fa-solid fa-medal"></i> من نحن <i class="fa-solid fa-caret-down"></i></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#home"><span>من نحن</span></a>
+                            <a href="#about"><span>اعضاء مجلس الامناء</span></a>
+                        </div>
                     </div>
                 </div>
                 <div class="box">
@@ -84,56 +84,34 @@
                     <a href="events.html">الحفلات والايفنتات</a>
                 </div>
                 <div class="box">
-                    <i class="fa-solid fa-shirt"></i>
-                    <a href="clothes.html">ملابس الاعباد والمواسم المختلفة</a>
+                    <div class="dropdown">
+                        <button onclick="myFunction1()" class="dropbtn"><i class="fa-solid fa-medal"></i>البرامج<i class="fa-solid fa-caret-down"></i></button>
+                        <div id="myDropdown1" class="dropdown-content">
+                            <a href="clothes.html"><span>ملابس الاعياد</span></a>
+                            <a href="Tables.html"><span>موائدرمضانية </span></a>
+                            <a href="school.html"><span>الانشطة المدرسية</span></a>
+                            <a href="dangerous.html"><span>المخاطر والازمات</span></a>
+                            <a href="marry.html"><span>تجهيز العرائس</span></a>
+                            <a href="help.html"><span>المساعدات الاجتماعية</span></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="box">
-                    <i class="fa-solid fa-utensils"></i>
-                    <a href="Tables.html">موائد رمضانية وتوزيع وجبات ساخنة</a>
+                    <div class="dropdown">
+                        <button onclick="myFunction2()" class="dropbtn"><i class="fa-solid fa-medal"></i>الانشطة<i class="fa-solid fa-caret-down"></i></button>
+                        <div id="myDropdown2" class="dropdown-content">
+                            <a href="training.html"><span>تدريب</span></a>
+                            <a href="courses.html"><span>كورسات</span></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="box">
-                    <i class="fa-solid fa-school"></i>
-                    <a href="school.html">الانشطة المدرسية</a>
-
-                </div>
-                <div class="box">
-                    <i class="fa-solid fa-brain"></i>
-                    <a href="training.html">تدريب</a>
-                </div>
-                <div class="box">
-                    <i class="fa-brands fa-discourse"></i>
-                    <a href="courses.html">كورسات</a>
-                </div>
-                <div class="box">
-                    <i class="fa-solid fa-skull-crossbones"></i>
-                    <a href="dangerous.html">المخاطر والازمات</a>
+                    <i class="fa-solid fa-gift"></i>
+                    <a href="events.html">البروتوكلات و الشركات</a>
                 </div>
                 <div class="box">
                     <i class="fa-solid fa-diagram-project"></i>
                     <a href="project.html">المشاريع</a>
-                </div>
-                <div class="box">
-                    <i class="fa-solid fa-person"></i>
-                    <a href="marry.html">تجهيز العرائس</a>
-                </div>
-                <div class="box">
-                    <i class="fa-solid fa-address-card"></i>
-                    <a href="help.html">المساعدات الاجتماعية</a>
-                </div>
-                <div class="box">
-                    <i class="fa-solid fa-building"></i>
-                    <a href="company.html">البروتوكولات والشركات</a>
-                </div>
-                <div class="box">
-                    <i class="fa-solid fa-phone-flip"></i>
-                    <a href="#">اتصل بنا</a>
-                    <i class="fa-solid fa-angle-down"></i>
-                    <div class="dropdown">
-                        <a href="#">تقديم اقتراح</a>
-                        <a href="#">راسلنا</a>
-                        <a href="#">ابلاغ عن مخالفة</a>
-                        <a href="#">تقديم شكوي</a>
-                    </div>
                 </div>
             </div>
             <div class="icons">
@@ -150,15 +128,12 @@
                         <a href="#">الرئيسية</a>
                     </div>
                     <div class="box">
-                        <i class="fa-solid fa-question"></i>
-                        <a href="#">من نحن</a>
-                        <i class="fa-solid fa-angle-down"></i>
                         <div class="dropdown">
-                            <a href="#">روية االموسسة</a>
-                            <a href="#">رسالة الموسسة</a>
-                            <a href="#">هدف الموسسة</a>
-                            <a href="#">اعضاء مجلس الادارة</a>
-                            <a href="#">فريق العمل</a>
+                            <button onclick="myFunction3()" class="dropbtn"><i class="fa-solid fa-medal"></i><span>من نحن</span><i class="fa-solid fa-caret-down"></i></button>
+                            <div id="myDropdown3" class="dropdown-content">
+                                <a href="who.html"><span>من نحن</span></a>
+                                <a href="#about"><span>اعضاء مجلس الامناء</span></a>
+                            </div>
                         </div>
                     </div>
                     <div class="box">
@@ -173,60 +148,48 @@
                         <i class="fa-solid fa-gift"></i>
                         <a href="#">الحفلات والايفنتات</a>
                     </div>
-                    <div class="box">
-                        <i class="fa-solid fa-shirt"></i>
-                        <a href="#">ملابس الاعباد والمواسم المختلفة</a>
-                    </div>
-                    <div class="box">
-                        <i class="fa-solid fa-utensils"></i>
-                        <a href="#">موائد رمضانية وتوزيع وجبات ساخنة</a>
-                    </div>
-                    <div class="box">
-                        <i class="fa-solid fa-school"></i>
-                        <a href="#">الانشطة المدرسية</a>
 
+                    <div class="box">
+                        <div class="dropdown">
+                            <button onclick="myFunction4()" class="dropbtn"><i class="fa-solid fa-medal"></i><span>البرامج</span><i class="fa-solid fa-caret-down"></i></button>
+                            <div id="myDropdown4" class="dropdown-content">
+                                <a href="clothes.html"><span>ملابس الاعياد</span></a>
+                                <a href="Tables.html"><span>موائدرمضانية </span></a>
+                                <a href="school.html"><span>الانشطة المدرسية</span></a>
+                                <a href="dangerous.html"><span>المخاطر والازمات</span></a>
+                                <a href="marry.html"><span>تجهيز العرائس</span></a>
+                                <a href="help.html"><span>المساعدات الاجتماعية</span></a>
+                            </div>
+                        </div>
                     </div>
                     <div class="box">
-                        <i class="fa-solid fa-brain"></i>
-                        <a href="#">تدريب</a>
+                        <div class="dropdown">
+                            <button onclick="myFunction5()" class="dropbtn"><i class="fa-solid fa-medal"></i><span>الانشطة</span><i class="fa-solid fa-caret-down"></i></button>
+                            <div id="myDropdown5" class="dropdown-content">
+                                <a href="training.html"><span>تدريب</span></a>
+                                <a href="courses.html"><span>كورسات</span></a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="box">
-                        <i class="fa-brands fa-discourse"></i>
-                        <a href="#">كورسات</a>
-                    </div>
-                    <div class="box">
-                        <i class="fa-solid fa-skull-crossbones"></i>
-                        <a href="#">المخاطر والازمات</a>
-                    </div>
+
                     <div class="box">
                         <i class="fa-solid fa-diagram-project"></i>
                         <a href="#">المشاريع</a>
                     </div>
                     <div class="box">
-                        <i class="fa-solid fa-person"></i>
-                        <a href="#">تجهيز العرائس</a>
-                    </div>
-                    <div class="box">
-                        <i class="fa-solid fa-address-card"></i>
-                        <a href="#">المساعدات الاجتماعية</a>
-                    </div>
-                    <div class="box">
-                        <i class="fa-solid fa-building"></i>
-                        <a href="#">البروتوكولات والشركات</a>
-                    </div>
-                    <div class="box">
-                        <i class="fa-solid fa-phone-flip"></i>
-                        <a href="#">اتصل بنا</a>
-                        <i class="fa-solid fa-angle-down"></i>
-                        <div class="dropdown">
-                            <a href="#">تقديم اقتراح</a>
-                            <a href="#">راسلنا</a>
-                            <a href="#">ابلاغ عن مخالفة</a>
-                            <a href="#">تقديم شكوي</a>
-                        </div>
+                        <i class="fa-solid fa-diagram-project"></i>
+                        <a href="#">البروتوكلات والمشاريع</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="left-nav">
+        <div class="icon">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
     </div>
     <!-- End Header Section -->
@@ -316,7 +279,7 @@
         </div>
     </div>
     <!-- End Footer Section -->
-
+    <script src="js/main.js"></script>
 </body>
 
 </html>
